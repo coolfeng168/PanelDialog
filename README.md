@@ -1,6 +1,13 @@
 # PanelDialog
 支持全屏和半屏模式的底部弹窗面板，支持拖拽，嵌套滑动，多级面板
 
+
+demo：
+
+![image](https://github.com/coolfeng168/PanelDialog/blob/master/demo.gif)
+
+
+
 复制BottomSheetBehavior，做对应的修改。
 
 使用方法：
