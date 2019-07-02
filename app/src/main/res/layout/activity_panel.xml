@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinator_layout">
+
+    <!--这个view的作用是当面板高度变化的时候，保证面板底部不会有空隙-->
+    <View
+        android:id="@+id/panel_bg_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"/>
+
+    <com.yunfeng.paneldialog.MaxHeightFrameLayout
+        android:id="@+id/layout_panel_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:HeightRatio="1"
+        app:layout_behavior="com.yunfeng.paneldialog.BottomSheetBehavior2">
+    </com.yunfeng.paneldialog.MaxHeightFrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

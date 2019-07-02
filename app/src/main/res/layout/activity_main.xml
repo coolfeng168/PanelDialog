@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/tv_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="半屏面板，不可拖拽" />
+
+    <Button
+        android:id="@+id/tv_panel_draggable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="半屏面板，可拖拽" />
+
+    <Button
+        android:id="@+id/tv_panel_outside"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="半屏面板，点击外部不关闭" />
+
+
+    <Button
+        android:id="@+id/tv_full_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="全屏面板，不可拖拽" />
+
+    <Button
+        android:id="@+id/tv_full_panel_draggable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="全屏面板，可拖拽" />
+</LinearLayout>
